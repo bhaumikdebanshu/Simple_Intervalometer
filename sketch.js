@@ -9,7 +9,7 @@ var t;
 
 function setup() {
   
-  createCanvas(500,500);
+  createCanvas(800,800);
   backgroundColor = color(255,255,255);
   
      
@@ -79,9 +79,13 @@ function draw() {
 
   textSize(16);
   textAlign(LEFT);
-  text('HOW TO USE', 20, 250);
-  text("1. Connect one end of 3.5mm Aux Cable to the PC and other to the device.");
-
+  text('INSTRUCTIONS TO USE', 20, 250);
+  text("1. Connect one end of 3.5mm Aux Cable to the PC and other to the device.", 20, 280);
+  text("2. Connect 2.5mm jack on the device to the 2.5mm camera connector.", 20, 300);
+  text("3. Set the camera to Manual mode with Manual focus.", 20, 320);
+  text("4. Set the frame, shutter speed, aperture, white balance etc.", 20, 340);
+  text("5. Once satisfied with the camera settings, plug in the camera connector into the camera.", 20, 360);
+  text("6. Set the fps value and press Start.", 20, 380);
 }
 
 
