@@ -77,6 +77,10 @@ function draw() {
   text(sliderValue + 'ms', 20, 165);
   text(fpsValue + 'fps', 20, 195);
 
+  textSize(16);
+  textAlign(LEFT);
+  text('HOW TO USE', 20, 250);
+
 }
 
 
