@@ -80,6 +80,7 @@ function draw() {
   textSize(16);
   textAlign(LEFT);
   text('HOW TO USE', 20, 250);
+  text("1. Connect one end of 3.5mm Aux Cable to the PC and other to the device.");
 
 }
 
